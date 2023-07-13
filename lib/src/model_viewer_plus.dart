@@ -627,7 +627,7 @@ class ModelViewer extends StatefulWidget {
   /// Passthrough to `onWebViewCreated` in the underlying `WebView`.
   ///
   /// Called *after* the logic that initializes the model-viewer.
-  final void Function(WebViewController controller)? onWebViewCreated;
+  final ValueChanged<WebViewController>? onWebViewCreated;
 
   @override
   State<ModelViewer> createState() => ModelViewerState();

@@ -398,7 +398,7 @@ abstract class HTMLBuilder {
         : modelViewerHtml.toString();
 
     if (debugLogging ?? false) {
-      debugPrint(html); // DEBUG
+      debugPrint(html);
     }
 
     return html;

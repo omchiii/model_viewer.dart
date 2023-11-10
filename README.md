@@ -1,4 +1,4 @@
-# This a fork of [omchiii, adapted to flutterflow](https://github.com/omchiii/model_viewer_plus.dart)
+# This a fork of [omchiii](https://github.com/omchiii/model_viewer_plus.dart), adapted to flutterflow
 
 # 3D Model Viewer for Flutter
 

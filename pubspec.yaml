@@ -1,7 +1,7 @@
-name: model_viewer_plus
-description: A Flutter widget for rendering interactive 3D models in the glTF and GLB formats
-version: 1.7.0
-repository: https://github.com/omchiii/model_viewer_plus.dart
+name: model_viewer_plus_ff
+description: A Flutter widget for rendering interactive 3D models in the glTF and GLB formats (Flutterflow adaption)
+version: 4.0.0
+repository: https://github.com/famenft/model_viewer_plus_ff.dart
 topics:
   - model-viewer
   - model

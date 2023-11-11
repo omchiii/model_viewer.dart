@@ -1,7 +1,7 @@
 import 'dart:ui' show Color;
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:model_viewer_plus/src/html_builder.dart' show HTMLBuilder;
+import 'package:model_viewer_plus_ff/src/html_builder.dart' show HTMLBuilder;
 
 void main() {
   group('HTMLBuilder', () {

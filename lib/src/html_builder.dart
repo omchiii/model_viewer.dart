@@ -2,7 +2,7 @@ import 'dart:convert' show htmlEscape;
 
 import 'package:flutter/material.dart';
 
-import '../model_viewer_plus.dart';
+import '../model_viewer_plus_ff.dart';
 
 abstract class HTMLBuilder {
   HTMLBuilder._();

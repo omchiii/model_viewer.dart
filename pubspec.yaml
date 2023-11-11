@@ -19,9 +19,9 @@ dependencies:
     sdk: flutter
   path: ^1.8.3
   url_launcher: ^6.1.0
-  webview_flutter: ^4.2.2
-  webview_flutter_android: ^3.0.0
-  webview_flutter_wkwebview: ^3.0.0
+  webview_flutter: 4.0.5
+  webview_flutter_android: 3.3.1
+  webview_flutter_wkwebview: 3.1.1
 
 dev_dependencies:
   carapacik_lints: ^1.5.0

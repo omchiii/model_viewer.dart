@@ -12,14 +12,14 @@ web component in a [WebView](https://pub.dev/packages/webview_flutter).
 
 ## Screenshot
 
-<img src="https://raw.githubusercontent.com/omchiii/model_viewer_plus.dart/master/example/flutter_01.png" width="480" />
+<img src="https://raw.githubusercontent.com/omchiii/model_viewer_plus.dart/master/example/flutter_01.png" width="480"  alt=""/>
 
-<img src="https://raw.githubusercontent.com/omchiii/model_viewer_plus.dart/master/example/flutter_02.png" width="480" />
+<img src="https://raw.githubusercontent.com/omchiii/model_viewer_plus.dart/master/example/flutter_02.png" width="480"  alt=""/>
 
 ## Compatibility
 
 - Android
-- iOS (AR View may not avaliable on iOS 16+)
+- iOS (AR View may not available on iOS 16+)
 - Web, with [a recent system browser version](https://modelviewer.dev/#section-browser-support).
 
 ## Notes
@@ -34,7 +34,7 @@ If [Google Play Services for AR (ARCore, `com.google.ar.core`)](https://play.goo
 
 ```yaml
 dependencies:
-  model_viewer_plus: ^1.7.1
+  model_viewer_plus: ^1.8.0
 ```
 
 ### `AndroidManifest.xml` (Android 9+ only)
@@ -83,9 +83,7 @@ Modify the `<head>` tag of your `web/index.html` to load the JavaScript, like so
 
 ```html
 <head>
-
   <!-- Other stuff -->
-
   <script type="module" src="./assets/packages/model_viewer_plus/assets/model-viewer.min.js" defer></script>
 </head>
 ```
@@ -157,7 +155,7 @@ class MyApp extends StatelessWidget {
 
 ### Loading a model from the file system
 
-This is not avaliable on Web.
+This is not available on Web.
 
 ```dart
 class MyApp extends StatelessWidget {

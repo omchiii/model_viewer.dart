@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:convert' show utf8;
 import 'dart:io' show File, HttpServer, HttpStatus, InternetAddress, Platform;
 
-import 'package:android_intent_plus/android_intent.dart' as android_content;
+import 'package:android_intent_plus/android_intent.dart' as android_intent;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -174,7 +174,7 @@ class ModelViewerState extends State<ModelViewer> {
             } else {
               fileURL = p.joinAll([_proxyURL, 'model']);
             }
-            final intent = android_content.AndroidIntent(
+            final intent = android_intent.AndroidIntent(
               action: 'android.intent.action.VIEW',
               // Intent.ACTION_VIEW
               // See https://developers.google.com/ar/develop/scene-viewer#3d-or-ar

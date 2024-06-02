@@ -3,8 +3,8 @@ import 'package:webview_flutter/webview_flutter.dart';
 
 import 'model_viewer_plus_stub.dart'
     if (dart.library.io) 'model_viewer_plus_mobile.dart'
-    if (dart.library.js) 'model_viewer_plus_web.dart';
-import 'shim/dart_html_fake.dart' if (dart.library.html) 'dart:html';
+    if (dart.library.js_interop) 'model_viewer_plus_web.dart';
+import 'shim/dart_web_fake.dart' if (dart.library.js_interop) 'dart:html';
 
 enum Loading { auto, lazy, eager }
 

@@ -1,3 +1,10 @@
+## 1.8.0
+
+### Changed
+- Upgrade <model-viewer> to 3.5.0
+- Updates examples
+- Updates minimum supported SDK version to Flutter 3.22/Dart 3.4
+
 ## 1.7.1
 
 ### Changed

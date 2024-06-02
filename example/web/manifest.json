@@ -1,11 +1,11 @@
 {
-    "name": "example",
-    "short_name": "example",
+    "name": "model_viewer_plus",
+    "short_name": "model_viewer_plus",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A project that showcases usage of model_viewer",
+    "description": "A project that showcases usage of model_viewer_plus",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

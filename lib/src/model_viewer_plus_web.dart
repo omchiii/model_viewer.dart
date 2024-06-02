@@ -5,8 +5,9 @@ import 'package:flutter/services.dart' show rootBundle;
 
 import 'html_builder.dart';
 import 'model_viewer_plus.dart';
-import 'shim/dart_html_fake.dart' if (dart.library.html) 'dart:html';
-import 'shim/dart_ui_fake.dart' if (dart.library.html) 'dart:ui_web' as ui_web;
+import 'shim/dart_ui_web_fake.dart' if (dart.library.ui_web) 'dart:ui_web'
+    as ui_web;
+import 'shim/dart_web_fake.dart' if (dart.library.js_interop) 'dart:html';
 
 class ModelViewerState extends State<ModelViewer> {
   bool _isLoading = true;
